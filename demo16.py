@@ -1,0 +1,18 @@
+str1 = 'abcdefg1234567ABCDEFG'
+print(type(str1), len(str1))
+print(str1[0], str1[len(str1) - 1])
+# print(str1[len(str1)])
+print(str1[-1], str1[-len(str1)])
+# print(str1[-len(str1) - 1])
+print(str1[2:8])
+print(str1[:8])
+print(str1[2:])
+print(str1[:])
+print(str1[:5], str1[5:])
+print(str1[-5:], str1[:-5])
+str2 = 'www.uuu.com.tw'
+return1 = str2.split('.')
+print(type(str2), type(return1))
+print(return1)
+return2 = '$$'.join(return1)
+print(return2)
