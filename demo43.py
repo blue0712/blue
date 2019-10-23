@@ -13,6 +13,9 @@ headers = {
 
 r1 = requests.get(url1, headers=headers)
 print(r1.status_code)
-print(r1.content)
 soup1 = BeautifulSoup(r1.content, 'html.parser')
 print(soup1.title)
+all_title = soup1.find('div', {'class': 'l-tab'})
+courses = all_title.find_all('a')
+for i in courses:
+    print(i)
