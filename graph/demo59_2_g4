@@ -1,0 +1,8 @@
+digraph {
+	A [label=Nissan]
+	B [label=Toyota]
+	C [label=Lexus]
+	D [label=Ford]
+	E [label=Luxgen]
+	F
+}

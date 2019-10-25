@@ -1,0 +1,12 @@
+digraph {
+	graph [bgcolor="#C0FFEE" fillcolor="#C0EEFF" fontcolor="#444444" fontsize=24 label="國產車市場" rankdir=LR]
+	A [label=Nissan]
+	B [label=Toyota]
+	C [label=Lexus]
+	D [label=Ford]
+	E [label=Luxgen]
+	A -> B [label="japan popular brand"]
+	A -> C [label="same company"]
+	B -> D [label="F1 racer"]
+	B -> E [label="electric gadget"]
+}
